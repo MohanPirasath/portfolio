@@ -1,0 +1,29 @@
+
+
+.Contact_details{
+    background-color: #132347;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    flex-direction: column;
+    border-radius: 15px;
+}
+h6{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+h4{
+    padding-top: 5%;
+}
+span{
+   color: #7865ff;
+}
+
+.Contact_details span{
+    color:#7865ff
+}
+
+
+
+

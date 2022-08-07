@@ -1,0 +1,53 @@
+
+
+.table{
+    border: none;
+    border-collapse: collapse;
+    border: 1px solid #132347;
+    border-radius: 5px;
+}
+
+th,td{
+    padding: 1.8rem 1.3rem;
+    font-size: 1rem;
+}
+
+thead{
+    background: #7865ff;
+    color:#fff;
+    padding: 1.3rem;
+}
+td{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400
+}
+tr:nth-child(even){
+    background: #102048;
+}
+
+
+@media only screen and(max-width:992px){
+    th,td{
+        font-size: .7rem;
+        padding: .8rem;
+    }
+}
+
+
+
+@media screen and (max-width:810px){
+    th,td{
+        font-size: .6rem;
+        padding: .7rem;
+    }
+}
+@media screen and (max-width:375px){
+    th,td{
+        font-size: .6rem;
+        padding: .7rem;
+    }
+}
+
+
+

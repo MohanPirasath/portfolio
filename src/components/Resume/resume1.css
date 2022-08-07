@@ -1,0 +1,32 @@
+.download_resume {
+    margin-right: 1100px;
+}
+span{
+    color: transparent;
+}
+.Resume_pic{
+
+    object-fit: contain;
+    color: red !important;
+    background-color: transparent !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* height: 10px; */
+    width: fit-content;
+    /* margin-right: 1100px; */
+}
+
+.download_resume{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.download_resume a:hover{
+  color: greenyellow;
+  transform: none;
+}
+
+

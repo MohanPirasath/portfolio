@@ -1,0 +1,15 @@
+.text-center{
+    border: 1px solid #0d329164;
+    padding-top: 20px;
+}
+
+.text-center p{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width:992px){
+    .text-center p{
+        font-size: .7rem;
+    }
+}
