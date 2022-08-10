@@ -41,15 +41,15 @@ const ProjectData=[
         git_b:"https://github.com/MohanPirasath/Amazon_clone_node"
 
     },
-    // {
-    //     imgUrl:Amazon_clone_app,
-    //     des:"hhhbjnjh",
-    //     title:"None",
-    //     Url:"#",
-    //     git_f:"#",
-    //     git_b:"#"
+    {
+        imgUrl:Amazon_clon,
+        des:"This App help us to share the experince of our day to day life . it is a type of social media where we can post our special experience ",
+        title:"FileIt App",
+        Url:"#",
+        git_f:"#",
+        git_b:"#"
 
-    // },
+    },
 ]
 
 
