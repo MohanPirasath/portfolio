@@ -8,6 +8,7 @@ import Fab from '@mui/material/Fab';
 import Amazon_clone_app from "../../Assests/Amazon_clone.png"
 import Rental_pic from "../../Assests/Rental_app_pic.png"
 import Food_pic from "../../Assests/Food_app_pic.png"
+import File_it_img from "../../Assests/File_it_img.png"
 import useNavigate from "react-router-dom"
 
 
@@ -26,7 +27,7 @@ const ProjectData=[
     {
         imgUrl:Food_pic,
         title:"Food Token Generater",
-        des:" This is the food token genetator application which contain Request token page for every users and the request has to be accepted by Admin once the admin accepted the token will generated",
+        des:"This is the food token genetator application which contain Request token page for every users and the request has to be accepted by Admin once the admin accepted the token will generated",
         Url:"https://mycapston.netlify.app/signup",
         git_f:"https://github.com/MohanPirasath/capston",
         git_b:"https://github.com/MohanPirasath/O_node_capston"
@@ -41,15 +42,15 @@ const ProjectData=[
         git_b:"https://github.com/MohanPirasath/Amazon_clone_node"
 
     },
-    // {
-    //     imgUrl:Amazon_clon,
-    //     des:"This App help us to share the experince of our day to day life . it is a type of social media where we can post our special experience ",
-    //     title:"FileIt App",
-    //     Url:"#",
-    //     git_f:"#",
-    //     git_b:"#"
+    {
+        imgUrl:File_it_img,
+        des:"This App help us to share the experince of our day to day life to other peoples and we can like the post of other experirnce . it is a type of social media where we can post our special experience ",
+        title:"FileIt App",
+        Url:"https://file-it.netlify.app",
+        git_f:"https://github.com/MohanPirasath/social-app",
+        git_b:"https://github.com/MohanPirasath/social-server"
 
-    // },
+    },
 ]
 
 
@@ -65,6 +66,7 @@ const ProjectData=[
         <h2>
             Projects
         </h2>
+        <h5>Click the project and view live button for view our project live</h5>
         </Col>
         {
             ProjectData.map((item,index)=>{
