@@ -19,10 +19,10 @@ const nav=[
       display:"About",
       url:"#about"
     },
-    {
-      display:"Services",
-      url:"#services"
-    },
+    // {
+    //   display:"Services",
+    //   url:"#services"
+    // },
     {
       display:"Projects",
       url:"#projects"
@@ -80,7 +80,7 @@ window.scroll({
                 <div className="navigation">
                  <div className="logo">
                     <h5>
-                        Web Developer
+                        Full Stack Developer
                     </h5>
                  </div>
 
@@ -101,7 +101,12 @@ window.scroll({
                     </ul>
                  </div>
                  <div className="nav_right">
-                  <button className="btn" onClick={()=>{navigate("/resume")}}>GET RESUME</button>
+                 <a href="https://drive.google.com/file/d/1-Jz5iCzqdbc3Fys3rningOqMPvhknnrx/view?usp=sharing" target="_blank" className="atag">
+                  <button className="btn"
+                  //  onClick={()=>{navigate("/resume")}}
+                  >GET RESUME</button>
+                  </a>
+
                   <span className="mobile_menu">
                   <IconButton aria-label="menu" sx={{color:"whitesmoke",fontSize:"1.3rem"}} onClick={menuToggle} >
                     <MenuIcon   />

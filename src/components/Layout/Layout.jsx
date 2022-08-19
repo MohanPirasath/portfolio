@@ -19,8 +19,8 @@ const Layout = () =>{
 <Header/>
 <HeroSection/>
 <About/>
-<Services/>
-<Experience/>
+{/* <Services/> */}
+{/* <Experience/> */}
 <Projects/>
 <ContactMe/>
 <Footer/>

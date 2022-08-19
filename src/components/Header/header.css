@@ -65,6 +65,10 @@
     align-items: center;
     column-gap: 2.7rem;
 }
+.mobile_menu{
+    visibility: hidden;
+    /* display: block; */
+}
 
 .nav_item a{
     color: #fff;
@@ -114,7 +118,8 @@
         display: block;
     }
     .mobile_menu{
-        display: block;
+        /* display: block; */
+        visibility: visible;
     }
 
     .btn{
@@ -129,6 +134,24 @@
 
 }
 
+@media only screen and (max-width: 576px) {
+    .mobile_menu{
+        /* display: block; */
+        visibility: visible;
+    }
+}
 
 
+@media screen and (max-width:810px){
+    .mobile_menu{
+        /* display: block; */
+        visibility: visible;
+    }
+}
 
+@media screen and (max-width:375px){
+    .mobile_menu{
+        /* display: block; */
+        visibility: visible;
+    }
+}

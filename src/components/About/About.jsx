@@ -40,9 +40,9 @@ const About=()=>{
                         <button className={`about_btn ${aboutme==="SKILLS"?'about_btn-active':""}`}onClick={()=>{
                             setaboutme('SKILLS')
                         }}>Skills</button>
-                        <button className={`about_btn ${aboutme==="CONTACT"?'about_btn-active':""}`}onClick={()=>{
+                        {/* <button className={`about_btn ${aboutme==="CONTACT"?'about_btn-active':""}`}onClick={()=>{
                             setaboutme('CONTACT')
-                        }}>Contact</button>
+                        }}>Contact</button> */}
                         {/* <button className="about_btn">About Me</button> */}
 
                     </div>
@@ -90,9 +90,9 @@ const About=()=>{
                     {
                         aboutme==="SKILLS"? <Skills/>:""
                     }
-                    {
+                    {/* {
                         aboutme==="CONTACT"? <Contact/>:""
-                    }
+                    } */}
 
                 </Col>
             </Row>

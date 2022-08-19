@@ -5,6 +5,7 @@ import React,{useRef,useEffect} from "react";
 import {init} from "ityped";
 
 import Typewriter from "typewriter-effect"
+import {useNavigate} from "react-router-dom"
 
 
 // import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -22,6 +23,7 @@ import Profile_picutres from "../../Assests/profile_pic.jpg"
 const HeroSection =()=>{
 
 
+    const navigate = useNavigate()
 
 
 
@@ -72,6 +74,10 @@ const HeroSection =()=>{
               <div className="hero_btns mb-4">
                    {/* <button className="btn hire_btn"><a href="#">Hire Me</a></button> */}
                    {/* <button className="btn get" ><a href="#">Get Resume</a></button> */}
+                 <a href="https://drive.google.com/file/d/1-Jz5iCzqdbc3Fys3rningOqMPvhknnrx/view?usp=sharing" target="_blank" className="atag"> <button className="btn"
+                //   onClick={()=>{navigate("/resume")}}
+                  >GET RESUME</button> </a>
+
               </div>
 
                 

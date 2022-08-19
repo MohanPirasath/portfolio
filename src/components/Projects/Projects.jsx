@@ -9,6 +9,7 @@ import Amazon_clone_app from "../../Assests/Amazon_clone.png"
 import Rental_pic from "../../Assests/Rental_app_pic.png"
 import Food_pic from "../../Assests/Food_app_pic.png"
 import File_it_img from "../../Assests/File_it_img.png"
+import ChatMe_pic from "../../Assests/ChatMe_pic.png"
 import useNavigate from "react-router-dom"
 
 
@@ -33,15 +34,7 @@ const ProjectData=[
         git_b:"https://github.com/MohanPirasath/O_node_capston"
 
     },
-    {
-        imgUrl:Amazon_clone_app,
-        title:"Amazon_clone",
-        des:" This is the E-commers Web Application which is the clone of Amazon application.The application contains login, signup, Add to cart, CheckOut page and the payment page. ",
-        Url:"https://eclectic-raindrop-78a01a.netlify.app",
-        git_f:"https://github.com/MohanPirasath/amazon_clone",
-        git_b:"https://github.com/MohanPirasath/Amazon_clone_node"
-
-    },
+   
     {
         imgUrl:File_it_img,
         des:"This App help us to share the experince of our day to day life to other peoples and we can like the post of other experirnce . it is a type of social media where we can post our special experience ",
@@ -49,6 +42,24 @@ const ProjectData=[
         Url:"https://file-it.netlify.app",
         git_f:"https://github.com/MohanPirasath/social-app",
         git_b:"https://github.com/MohanPirasath/social-server"
+
+    }, 
+    {
+        imgUrl:ChatMe_pic,
+        des:"This is the Chat app. Here we can chat with the peoples those who registered in our application and also we can chat in the rooms  and the rooms are public anyone can message in it.",
+        title:"ChatMe App",
+        Url:"https://chat-with-me-app.netlify.app",
+        git_f:"https://github.com/MohanPirasath/chat",
+        git_b:"https://github.com/MohanPirasath/chat-server"
+
+    }, 
+    {
+        imgUrl:Amazon_clone_app,
+        title:"Amazon_clone",
+        des:" This is the E-commers Web Application which is the clone of Amazon application.The application contains login, signup, Add to cart, CheckOut page and the payment page. ",
+        Url:"https://eclectic-raindrop-78a01a.netlify.app",
+        git_f:"https://github.com/MohanPirasath/amazon_clone",
+        git_b:"https://github.com/MohanPirasath/Amazon_clone_node"
 
     },
 ]
@@ -66,7 +77,8 @@ const ProjectData=[
         <h2>
             Projects
         </h2>
-        <h5>Click the project and view live button for view our project live</h5>
+        {/* <h5>Click the project and view live button for view our project live</h5> */}
+        <h5 style={{marginTop:"2rem"}}>Credentials<br></br>(userName:user@123,Password:User@123<br></br>AdminId:Admin123,Password:1234 )</h5>
         </Col>
         {
             ProjectData.map((item,index)=>{
@@ -78,13 +90,13 @@ const ProjectData=[
                         </div>
                         <div className="project_content">
                             <h5>{item.title}</h5>
-                            <a href={item.Url}>View live</a>
+                            <a href={item.Url} target="_blank">View live</a>
         
                         </div>
                         </div>
                         <div className="project_des">
                         <p>
-                        About: 
+                        {/* About:  */}
                         {item.des}
                             </p>  
                         </div>

@@ -4,6 +4,11 @@ import React from "react";
 import "./contact.css"
 import { Container,Row,Col } from "reactstrap";
 import Form from "../form/Form";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from '@mui/icons-material/GitHub';
+// import TwitterIcon from "@mui/icons-material/Twitter";
+// import InstagramIcon from "@mui/icons-material/Instagram";
+import EmailIcon from '@mui/icons-material/Email';
 
 const ContactMe = () =>{
     return(
@@ -57,6 +62,15 @@ const ContactMe = () =>{
                     </Col>
                     <Col lg="6" md="6">
                     {/* <Form/> */}
+                    <span className="space">
+                                    <a href="http://www.linkedin.com/in/mohan-pirasath"target="_blank"> <LinkedInIcon /></a>
+                                </span>
+                                    <span className="space">
+                                    <a href="https://github.com/MohanPirasath" target="_blank"><GitHubIcon/></a>
+                                    </span>
+                                    <span className="space">
+                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mahendran.mohanmass2000@gmail.com" target="_blank"><EmailIcon/></a>
+                                    </span>
                     </Col>
                 </Row>
             </Container>
