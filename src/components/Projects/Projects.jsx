@@ -9,7 +9,7 @@ import Amazon_clone_app from "../../Assests/Amazon_clone.png"
 import Rental_pic from "../../Assests/Rental_app_pic.png"
 import Food_pic from "../../Assests/Food_app_pic.png"
 import File_it_img from "../../Assests/File_it_img.png"
-import ChatMe_pic from "../../Assests/ChatMe_pic.png"
+import ChatMe_pic from "../../Assests/ChatMe_pic2.png"
 import useNavigate from "react-router-dom"
 
 
