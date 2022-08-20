@@ -101,7 +101,7 @@ window.scroll({
                     </ul>
                  </div>
                  <div className="nav_right">
-                 <a href="https://drive.google.com/file/d/1-Jz5iCzqdbc3Fys3rningOqMPvhknnrx/view?usp=sharing" target="_blank" className="atag">
+                 <a href="https://drive.google.com/file/d/1QcKugWhdnE9XN2ecvS_DLCnWQMBQjf8w/view?usp=sharing" target="_blank" className="atag">
                   <button className="btn"
                   //  onClick={()=>{navigate("/resume")}}
                   >GET RESUME</button>

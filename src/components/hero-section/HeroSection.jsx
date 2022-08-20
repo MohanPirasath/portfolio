@@ -74,7 +74,7 @@ const HeroSection =()=>{
               <div className="hero_btns mb-4">
                    {/* <button className="btn hire_btn"><a href="#">Hire Me</a></button> */}
                    {/* <button className="btn get" ><a href="#">Get Resume</a></button> */}
-                 <a href="https://drive.google.com/file/d/1-Jz5iCzqdbc3Fys3rningOqMPvhknnrx/view?usp=sharing" target="_blank" className="atag"> <button className="btn"
+                 <a href="https://drive.google.com/file/d/1QcKugWhdnE9XN2ecvS_DLCnWQMBQjf8w/view?usp=sharing" target="_blank" className="atag"> <button className="btn"
                 //   onClick={()=>{navigate("/resume")}}
                   >GET RESUME</button> </a>
 

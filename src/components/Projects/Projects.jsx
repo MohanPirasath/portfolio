@@ -78,7 +78,7 @@ const ProjectData=[
             Projects
         </h2>
         {/* <h5>Click the project and view live button for view our project live</h5> */}
-        <h5 style={{marginTop:"2rem"}}>Credentials<br></br>(userName:user@123,Password:User@123<br></br>AdminId:Admin123,Password:1234 )</h5>
+        <h5 style={{marginTop:"2rem"}}>Credentials<br></br>UserName: user@123,Password: User@123<br></br>AdminId: Admin123,Password: 1234 </h5>
         </Col>
         {
             ProjectData.map((item,index)=>{
